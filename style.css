@@ -1,45 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    /* ### Primary Colors */
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    /* ### Accent Colors */
+    --Bright-Blue: hsl(224, 93%, 58%); 
+    --Moderate-Cyan: hsl(146, 45%, 43%);
+    /* ### Neutral Colors */
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+    /* others */
+    --green: hsl(200, 45%, 43%);
+}
 
-
-body {
+* { /* universal selector */
     padding: 0%;
     margin: 0%;
 }
 
-.header{
-    display: block;
-    justify-content: space-between;
-    gap: 30px;
-    align-items: center;
-    padding: 10px;
-}
-.nav-link {
-    justify-content: space-between;
-    gap: 10px;
+body {
+    width: auto;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
 }
 
-ul{
-    list-style-type: disc;
+.hero-header-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400, 700;
+}
+
+.hero-paragraph-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    padding: 0 30px;
+}
+
+.nav-bar {
+    /* width: auto; */
     display: flex;
-    justify-content: gap-between;
+    height: 20vh;
+    justify-content: space-between;
     align-items: center;
+    /* padding: 10px; */
+}
+
+.logo {
+    /* width: auto;
+    padding: 0%;
+    margin: 0; */
+}
+
+.links-div {
+    /* width: auto; */
+}
+
+.nav-links {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 3em;
+}
+
+.links-div {}
+
+nav ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* row-gap: 200px;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    position: fixed;    
-    width: 100%;
-    
+    */
 }
 
 a {
     text-decoration: none;
 }
 
-#first-hero-section{
+
+
+
+
+.hero-header-text {
+    font-size: 2rem;
+}
+
+
+
+    {
+    list-style-type: disc;
+    display: flex;
+    justify-content: gap-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.blockA1 p{
+    padding: 1rem 0;
+}
+
+h1 {}
+
+#first-hero-section {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    margin: 10rem 0;
+}
+
+.blockA {
+    width: 50%;
+}
+.blockA2 {
+    display: flex;
+}
+
+.blockB1 {
+    object-fit: contain;
+    width: 50%;
+}
+
+.blockA1, .blockB1 img{
+    width: 100%;
+}
+
+.blockA h1, .blockA p, .blockA2 {
+    width: 90%;
+}
+
+.blockA input {
+    padding: 0.7rem;
+    margin-right: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+    /* border-radius: 2.5px; */
+    width: 50%;
+}
+
+.blockA button{
+    padding: 0.7rem;
+    color: white;
+    background-color: var(--Bright-Blue);
+    border: none;
+    border-radius: 3px;
+    width: 33%;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+#second-hero-section {
+    /* background-color: rgba(192, 226, 43, 0.361); */
+    background: url("/images/bg-curve-desktop.svg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+
 
 }
 
-#second-hero-section{
-
+.blockD, .blockC{
+    width: 50%;
 }
+
+.blockD img{
+    width: 100%;
+}
+
+svg{
+    width: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
