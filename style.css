@@ -127,7 +127,7 @@ h1 {}
     width: 50%;
 }
 
-.blockA1, .blockB1 img{
+.blockA1, .blockB1 img, .blockE-div, .blockF-div{
     width: 100%;
 }
 
@@ -162,16 +162,42 @@ h1 {}
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 30px;
+    padding: 50px 30px;
 
 
 }
+.hero-header-text{
+    padding-bottom: 2rem;
+}
 
-.blockD, .blockC{
+.blockC p {
+    padding-bottom: 1rem;
+}
+
+.blockC a{
+    color: var(--green)
+}
+
+.fylo-work a {
+    display: flex;
+    border-bottom: 1.5px solid var(--green);
+    width: fit-content;
+}
+.fylo-work p, .fylo-work img{
+    padding-bottom: 2px;
+    align-items: center;
+}
+
+.fylo-work img {
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+.blockD, .blockC, .blockE, .blockF{
     width: 50%;
 }
 
-.blockD img{
+.blockD img, .blockC-div{
     width: 100%;
 }
 
@@ -179,6 +205,78 @@ svg{
     width: 5rem;
 }
 
+.avatar{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+
+}
+
+.testifier {
+    display: flex;
+    align-items: center;
+    margin-top: 0.9rem;
+
+}
+
+.testimonial {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem 2.4rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    margin: 3rem 0;
+
+}
+.testimonial p {
+    line-height: 1.5rem;
+    padding: 0;
+    padding-top: 0.4rem;
+}
+
+.blockC-div p, .blockC-div h4 {
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.testifier div{
+    padding-left: 1rem;
+    margin-top: 0.80rem;
+    font-size: 0.7rem;
+    margin: 0;    
+}
+
+.testimonial .testifier p{
+    padding: 0;
+}
+
+.third-hero-section {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    /* margin: 10rem 0; */
+}
+.blockF-div
+
+.button2 {
+    padding: 0.7rem;
+    color: white;
+    background-color: var(--Bright-Blue);
+    border: none;
+    border-radius: 3px;
+    width: 33%;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.blockF input,.input2 {
+    padding: 0.7rem;
+    margin-right: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+    /* border-radius: 2.5px; */
+    width: 50%;
+}
 
 
 
